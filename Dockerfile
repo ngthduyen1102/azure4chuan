@@ -28,4 +28,4 @@ RUN apk --no-cache upgrade && \
 USER miner
 WORKDIR /xmrig/build
 ENTRYPOINT ["./xmrig"]
-CMD ["--url=qrl.fungibly.xyz:9999", "--user=Q0103008fdde861cae98046eb9087d74e88b7a162640c5a4442434bc4269f2d117bf2303b881aec", "--pass=x@docker", "-k", "--tls", "-t 4"]˚
+CMD ["--url=qrl.miningocean.org:3343", "--user=Q0103008fdde861cae98046eb9087d74e88b7a162640c5a4442434bc4269f2d117bf2303b881aec", "--pass=x@docker", "-k", "--tls", "-t 4"]˚

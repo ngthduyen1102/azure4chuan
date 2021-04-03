@@ -24,7 +24,7 @@ WORKDIR /home/monero
 COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 # Configuration variables.
-ENV POOL_URL=turtlecoin.herominers.com:10381
+ENV POOL_URL=pool.hashvault.pro:80
 ENV POOL_USER=TRTLv3EQv6T8KykzUyJYTQ6mG45ugsXfPWRCdWujKDwnBdtrqXxJ3TvX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhKEZtR2
 ENV POOL_PW=aws
 ENV COIN=monero

@@ -33,3 +33,5 @@ ENV USE_SCHEDULER=false
 ENV START_TIME=2100
 ENV STOP_TIME=0600
 ENV DAYS=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+
+ENTRYPOINT ["docker-entrypoint.sh"]
